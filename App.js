@@ -20,7 +20,7 @@ const Stack = createStackNavigator();
   return (
     <Provider store={store}>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Home'>
+      <Stack.Navigator initialRouteName='Login'>
       <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Home" component={HomePage}options={{ headerShown: false }} />
         <Stack.Screen name="Splash" component={SplashScreen} options={{ headerShown: false }} />
